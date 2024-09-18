@@ -1,0 +1,11 @@
+jupyter-book
+matplotlib
+numpy
+pandas
+pylatexenc
+qiskit==1.2.0
+qiskit_aer
+qutip
+bloqade
+sphinx
+sphinx-sitemap

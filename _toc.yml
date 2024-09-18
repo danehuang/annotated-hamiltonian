@@ -1,0 +1,11 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro.md
+chapters:
+- file: src/01_analog.ipynb
+- file: src/02_adiabatic.ipynb 
+- file: src/02b_aqc_universal.ipynb
+- file: src/03_neutral_atom.ipynb
+- file: src/03b_aqc_neutral_atom.ipynb
