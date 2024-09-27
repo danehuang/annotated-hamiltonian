@@ -35,9 +35,9 @@ from pulser.register.base_register import BaseRegister
 from pulser.result import SampledResult
 from pulser.sampler.samples import ChannelSamples, SequenceSamples
 from pulser.sequence._seq_drawer import draw_samples, draw_sequence
-from pulser_simulation.hamiltonian import Hamiltonian
-from pulser_simulation.qutip_result import QutipResult
-from pulser_simulation.simconfig import SimConfig
+from .hamiltonian import Hamiltonian
+from .qutip_result import QutipResult
+from .simconfig import SimConfig
 from .simresults import (
     CoherentResults,
     NoisyResults,
