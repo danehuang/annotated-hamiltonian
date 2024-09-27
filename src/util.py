@@ -74,6 +74,11 @@ def histogram_final_state(final_state):
     return answer
 
 
+def simulate(qc, shots=2048):
+    results = AerSimulator().run(qc, shots=shots).result()
+    return results.get_counts()
+
+
 def plot_histogram(counts):
     return qiskit.visualization.plot_histogram(counts)
 
