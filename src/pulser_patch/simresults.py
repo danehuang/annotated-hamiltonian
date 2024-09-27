@@ -37,7 +37,7 @@ def is_diagonal(qobj):
 
 
 from pulser.result import Results, ResultType, SampledResult
-from pulser_simulation.qutip_result import QutipResult
+from .qutip_result import QutipResult
 
 
 class SimulationResults(ABC, Results[ResultType]):
