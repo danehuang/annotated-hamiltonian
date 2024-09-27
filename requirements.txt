@@ -5,6 +5,7 @@ pandas
 pylatexenc
 qiskit==1.2.0
 qiskit_aer
+pulser-core
 qutip
 bloqade
 sphinx
