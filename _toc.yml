@@ -9,3 +9,4 @@ chapters:
 - file: src/02b_aqc_universal.ipynb
 - file: src/03_neutral_atom.ipynb
 - file: src/03b_aqc_neutral_atom.ipynb
+- file: src/03c_pulses.ipynb
